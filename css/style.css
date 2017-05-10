@@ -1,133 +1,78 @@
-/* universal section */
-.text-center {
-    text-align: center;
-}
-
-
-
-
-/* Header section begins here */
-header {
-    height: 50px;
-    background-color: rgba(2, 46, 177, 0.57);
-}
-
-header h1 {
-    float: left;
-    margin: 0px;
-}
-
-header img {
-    height: 50px;
-}
-
-nav {
+.nav-pills {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    opacity: .7; 
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10%;
     float: right;
-    position: relative;
-    top: 16px;
-    left: 20px;
-    right: 0px;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
-nav>ul {
+.nav-text {
+    color: #bc42f4;
+}
+
+ul {
     list-style-type: none;
-
+    padding: 0;
+    overflow: visible;
 }
 
-nav>ul>li {
+ul>li {
+    float: right;
+    margin-right: 50px;
     display: inline;
-    margin: 0px 10px 0px 10px;
-    padding: 0px 10px 0px 10px;
 }
 
-nav>ul>li>a {
-    color: #000;
-    text-decoration: none;
-    border: 1px inset red;
-    border-radius: 15px 15px 0px 0px;
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 40px; 
 }
 
-nav>ul>li>a:hover {
-    color: rgba(0, 0, 0, 0.5);
-    border: 1px outset red;
-    border-radius: 0px 0px 15px 15px;
-    transform: scale(0.5, 0.5) rotate(20deg) 
+.block {
+    background-color: white;
+    color: #bc42f4;
+    opacity: .7;
+    padding: 10px; 
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto; 
+    border-radius: 10px;
+    text-align: center;
 }
 
-/* Hero section begins here */
+.btn {
+    font-family: 'Exo', sans-serif;
+    color: #bc42f4;
+    font-size: 20px;
+    background-color: white;
+    opacity: .8;
+    border-color: black;
+}
 
-.hero {
-    background-image: url('../img/hero.png');
+.PageOne {
+    background: url("../img/background.jpg");
+    height: 75%;
     background-size: cover;
-    background-position: center;
-    height: 100px;
-    padding-top: 100px;
-
+    background-attachment: fixed;
+    margin-top: 0;
+    font-family: 'Exo', sans-serif;
 }
 
-.hero>h1 {
-    color: #0000ff;
-    margin: 0px;
-    text-align: center;
-}
-
-/* Sidebar setup */
-
-aside {
-    background-color: #000066;
-    border: 2px solid #f3f;
-    width: 100px;
-    height: 400px;
-    float: left;
-    box-sizing: border-box;
-}
-
-aside>ul {
-    list-style-type: none;
-    padding-left: 0px;
-    margin: 0px;
-}
-aside>ul>li {
-    text-align: center;
-    padding: 10px 0px;
-}
-
-aside>ul>li:hover {
-    background-color: #099;
-    border: 1px dotted #000;
-    font-weight: 900;
-}
-
-aside>ul>li>a {
-    text-decoration: none;
-    color: #fff
-}
-
-/* Main section */ 
-
-main {
-    height: 400px;
-    float: right;
-    width: 90%;
-    padding: 0px 40px;
-    box-sizing: border-box;
-}
-
-/* Footer sectio */
+/* footer section */
 
 footer {
-    height: 100px;
-    background-color: #4286f4;
-    clear: both;
+    text-align: center;
+  height: 100px;
+  margin: 0 auto;
+  clear: both;
+  padding: 2em 2em;
+  position: relative;
+  top: 581px;
 }
 
-.social-media {
-    padding-top: 10px;
-
-}
-
-.social-media a {
-    text-decoration: none;
-    color: #000;
-    font-size: 100px;
-}
